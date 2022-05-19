@@ -1,6 +1,7 @@
 package com.robot.robotapocalypse.domain;
 
 
+import com.robot.robotapocalypse.model.Location;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,4 +17,5 @@ public class RobotDto {
     private String serialNumber;
     private String manufacturerDate;
     private String category;
+    private Location locationDto;
 }
